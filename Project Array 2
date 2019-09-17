@@ -1,0 +1,12 @@
+package array1;
+public class Array2 {
+    public static void main(String[] args) {
+            int [] jumlahhari = new int [4];
+            jumlahhari [0] = 30;
+            jumlahhari [1] = 31;
+            jumlahhari [2] = 30;
+            jumlahhari [3] = 31;
+            System.out.println("Bulan Januari memiliki jumlah hari: " + jumlahhari [0] + " hari");
+            
+    }
+}
