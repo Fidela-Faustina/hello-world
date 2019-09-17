@@ -1,0 +1,15 @@
+public class Array1 {
+    public static void main(String[] args) {
+        int nilai[] = new int[3];
+        //memasukkan data
+        nilai[0] = 10;
+        nilai[1] = 10;
+        nilai[2] = 10;
+        double ratarata = 0.0;
+        for (int i = 0; i < nilai.length; i++) {
+            ratarata += nilai[i];
+        }
+        ratarata /= nilai.length;
+        System.out.println("Nilai Rata-Rata: " + ratarata);
+    }
+}
